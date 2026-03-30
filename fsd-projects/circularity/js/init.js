@@ -21,7 +21,7 @@ var init = function (window) {
         
         // TODO 1 : Declare and initialize our variables
 var circle
-
+var circles = [ ]
 
         // TODO 2 : Create a function that draws a circle 
 function drawCircle() {
@@ -51,15 +51,7 @@ drawCircle()
 
 
         // TODO 7 : Use a loop to create multiple circles
-drawCircle()
 
-drawCircle()
-
-drawCircle()
-
-drawCircle()
-
-drawCircle()
  for (var loopsCompleted = 0; loopsCompleted < 175; loopsCompleted++) {
 
             drawCircle();
@@ -88,8 +80,7 @@ for (var i = 0; i < circles.length; i++) {
 }
             
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           game.checkCirclePosition(circles[ 0 ])
-
+           
 
 
             // TODO 8 / TODO 9 : Iterate over the array
